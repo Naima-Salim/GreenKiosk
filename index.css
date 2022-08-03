@@ -1,0 +1,43 @@
+body{
+    background-color: silver;
+}
+ul li{
+    list-style-type: none;
+}
+#fruList{
+    display: flex;
+    text-align: center;
+}
+#vegList{
+    display: flex;
+    text-align: center;
+}
+#fruList, img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    color: green;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    margin-top: 7%;
+    width: 15%;
+    margin-left: 35%;
+    text-align: center;
+}
+#fru{
+    margin-right: 60%;
+}
+#veg{
+    margin-right: 9%;
+}
+#items{
+    margin-left: 13%;
+}
